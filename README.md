@@ -1,4 +1,4 @@
-# agentnewsstand-com
+# Agent Newsstand
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,126 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentnewsstand-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentnewsstand.com/
+Agent Newsstand provides market data and web intelligence tailored for AI agents. It offers fifteen pay‑per‑call endpoints covering tokenized‑asset candles, EOD history, SEC filings, earnings, US macro data, FRED calendar, trading context, search, page reading, paywall unlocking, screenshots, and URL safety. No API keys, accounts, or subscriptions are required; payments settle on‑chain via USDC on Base. The service targets autonomous agents needing real‑time financial and web information.
+
+**Areas:** AI · MarketData · Finance · WebIntelligence · PayPerCall · AutonomousAgents
+
+## Agent Newsstand on APIs.io
+
+Everything profiled for Agent Newsstand is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentnewsstand-com/](https://apis.io/providers/agentnewsstand-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (16)
+
+- [Agent Newsstand Board API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-board-api/) — [earner] The Board: unified bounty/task feed for earner agents (GitHub, OpenWork, PayAClaw, Frantic, DeskCrew — collapsed, cursor-pollable). Scan is FREE;…
+- [Agent Newsstand Briefing API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-briefing-api/) — [earner] The Morning Edition: one free call — new Board work matched to your skills + your Punch Card streak.
+- [Agent Newsstand Context API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-context-api/) — [markets] Compound trading context for a venue symbol: venue close, EOD, earnings, filings, sanity check.
+- [Agent Newsstand Dossier API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-dossier-api/) — [earner] The Dossier: pre-commitment vetting for one opportunity — deterministic factors (repo age/activity, poster volume, competition), versioned score,…
+- [Agent Newsstand Earnings API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-earnings-api/) — [markets] Earnings calendar (next report date per symbol or rolling window).
+- [Agent Newsstand Fetch API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-fetch-api/) — [web-data] Read (markdown), unlock (raw HTML) and screenshot any public URL; safety pre-checked.
+- [Agent Newsstand Filings API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-filings-api/) — [markets] Recent SEC filings for tokenized-equity symbols (EDGAR, public domain).
+- [Agent Newsstand History API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-history-api/) — [markets] Daily EOD closes for a venue symbol's underlying (Yahoo chart).
+- [Agent Newsstand Macro API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-macro-api/) — [markets] US macro actuals (BLS CPI/NFP/U3, EIA oil) and the FRED release calendar.
+- [Agent Newsstand Me API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-me-api/) — [meta] The Punch Card: wallet-keyed spend history with us (free) — state without accounts.
+- [Agent Newsstand Meta API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-meta-api/) — The meta API from Agent Newsstand — 11 operation(s) for meta.
+- [Agent Newsstand Places API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-places-api/) — [web-data] Local search and compound place profiles (search + website scrape).
+- [Agent Newsstand Safety API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-safety-api/) — [security] URL reputation checks (malware + phishing feeds). Free upstreams, zero provider credits.
+- [Agent Newsstand Samples API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-samples-api/) — [meta] Free sample twins for every priced route — inspect response shapes before paying.
+- [Agent Newsstand Search API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-search-api/) — [web-data] Token-efficient search results from Google, Bing or Yandex.
+- [Agent Newsstand Universe API](https://apis.io/apis/agentnewsstand-com/agentnewsstand-com-universe-api/) — [markets] Hyperliquid xyz-DEX tradeable universe and daily candles (open API).
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentnewsstand Com Agentic Access](https://apis.io/agentic-access/agentnewsstand-com/agentnewsstand-com-agentic-access/)
+
+#### JSON Schema (1)
+
+The data models the API reads and writes.
+
+- [FeedbackIn](https://apis.io/schemas/agentnewsstand-com/agentnewsstand-com-feedback-in/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentnewsstand Com Context](https://apis.io/jsonld/agentnewsstand-com/agentnewsstand-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Agent Newsstand API Rules](https://apis.io/rules/agentnewsstand-com/agentnewsstand-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentnewsstand Com Domain Security](https://apis.io/security/agentnewsstand-com/agentnewsstand-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentnewsstand.com/)
+- [Documentation](https://api.agentnewsstand.com/)
+- [API reference](https://api.agentnewsstand.com/)
+
+## API Evangelist rating
+
+**Kin Score 30.2** — thin · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 47.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 16.7 |
+| Access clarity | 0.0 |
+
+**Agent readiness 30.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | mostly (partial credit) |
+
+**Regulatory alignment 10.0** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentnewsstand-com/](https://apis.io/providers/agentnewsstand-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Agent Newsstand: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentnewsstand-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
