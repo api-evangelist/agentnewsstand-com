@@ -66,7 +66,7 @@
 
 Agent Newsstand provides market data and web intelligence tailored for AI agents. It offers fifteen pay‑per‑call endpoints covering tokenized‑asset candles, EOD history, SEC filings, earnings, US macro data, FRED calendar, trading context, search, page reading, paywall unlocking, screenshots, and URL safety. No API keys, accounts, or subscriptions are required; payments settle on‑chain via USDC on Base. The service targets autonomous agents needing real‑time financial and web information.
 
-**Areas:** AI · MarketData · Finance · WebIntelligence · PayPerCall · AutonomousAgents
+**Areas:** Artificial Intelligence · Market Data · Finance · Web Intelligence · Pay-per-call · Autonomous Agents
 
 ## Agent Newsstand on APIs.io
 
@@ -95,11 +95,17 @@ Everything profiled for Agent Newsstand is published on APIs.io rather than in t
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentnewsstand-com-mcp.yml](https://apis.io/servers/agentnewsstand-com/agentnewsstand-com-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [Agentnewsstand Com Agentic Access](https://apis.io/agentic-access/agentnewsstand-com/agentnewsstand-com-agentic-access/)
+- [Agent Newsstand Agentic Access](https://apis.io/agentic-access/agentnewsstand-com/agentnewsstand-com-agentic-access/)
 
 #### JSON Schema (1)
 
@@ -123,7 +129,7 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentnewsstand Com Domain Security](https://apis.io/security/agentnewsstand-com/agentnewsstand-com-domain-security/)
+- [Agent Newsstand Domain Security](https://apis.io/security/agentnewsstand-com/agentnewsstand-com-domain-security/)
 
 ## Where to find this API
 
@@ -135,25 +141,25 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 30.2** — thin · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 21.7** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 62.5 |
+| Discoverability | 69.6 |
 | Contract quality | 47.5 |
-| Contract governance | 79.1 |
+| Contract governance | 22.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 16.7 |
 | Access clarity | 0.0 |
 
-**Agent readiness 30.2** — agent-ready
+**Agent readiness 23.1** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | — |
 | Idempotency | — |
 | Error Semantics | verified |
@@ -162,7 +168,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | — |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | flavored (partial credit) |
 | Dry Run Mode | — |
 | Delegated Identity | — |
@@ -171,8 +177,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | mostly (partial credit) |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 10.0** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 4.3** — Securities & Market Data
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentnewsstand-com/](https://apis.io/providers/agentnewsstand-com/).
 
